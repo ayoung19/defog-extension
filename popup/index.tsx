@@ -1,4 +1,5 @@
 import "@fontsource/jetbrains-mono"
+
 import { useState } from "react"
 
 import { Button } from "@/popup/components/ui/button"
