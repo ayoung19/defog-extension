@@ -1,8 +1,8 @@
 {
   "name": "defog-extension",
-  "displayName": "Defog",
+  "displayName": "Defog — Auto Text & Word Replacer",
   "version": "0.0.1",
-  "description": "Map UUIDs and text patterns to human-readable labels across all webpages.",
+  "description": "Automatically replace text, words, UUIDs, and patterns with readable labels on any website. Open source.",
   "author": "Andy Young <andyluyoung@gmail.com>",
   "scripts": {
     "dev": "concurrently \"plasmo dev\" \"tailwindcss -i popup/index.css -o popup/index.built.css --watch\"",
