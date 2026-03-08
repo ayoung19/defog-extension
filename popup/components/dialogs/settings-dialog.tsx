@@ -1,25 +1,25 @@
-import { DesktopIcon, MoonIcon, SunIcon } from "@phosphor-icons/react"
-import type { ReactNode } from "react"
+import { DesktopIcon, MoonIcon, SunIcon } from "@phosphor-icons/react";
+import type { ReactNode } from "react";
 
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue
-} from "@/popup/components/ui/select"
-import { useTheme, type Theme } from "@/popup/hooks/storage/useTheme"
+  SelectValue,
+} from "@/popup/components/ui/select";
+import { useTheme, type Theme } from "@/popup/hooks/storage/useTheme";
 
 // --- Reusable setting row ---
 
 function SettingRow({
   label,
   description,
-  children
+  children,
 }: {
-  label: string
-  description?: string
-  children: ReactNode
+  label: string;
+  description?: string;
+  children: ReactNode;
 }) {
   return (
     <div className="flex items-center justify-between gap-4">
@@ -31,13 +31,13 @@ function SettingRow({
       </div>
       <div className="shrink-0">{children}</div>
     </div>
-  )
+  );
 }
 
 // --- Settings dialog ---
 
 export function SettingsDialog() {
-  const [theme, setTheme] = useTheme()
+  const [theme, setTheme] = useTheme();
 
   return (
     <div className="divide-border divide-y">
@@ -70,5 +70,5 @@ export function SettingsDialog() {
         </div>
       </div>
     </div>
-  )
+  );
 }

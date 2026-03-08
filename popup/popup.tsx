@@ -1,63 +1,63 @@
 import {
   GearIcon,
   LightningIcon,
-  LightningSlashIcon
-} from "@phosphor-icons/react"
-import { useEffect } from "react"
+  LightningSlashIcon,
+} from "@phosphor-icons/react";
+import { useEffect } from "react";
 
-import { type Mapping } from "@/lib/types"
-import { CreateMappingForm } from "@/popup/components/create-mapping-form"
-import { SettingsDialog } from "@/popup/components/dialogs/settings-dialog"
-import { UpdateMappingForm } from "@/popup/components/dialogs/update-mapping-form"
-import { MappingList } from "@/popup/components/mapping-list"
-import { useDialog } from "@/popup/components/providers/dialog-provider"
-import { Button } from "@/popup/components/ui/button"
-import { useEnabled } from "@/popup/hooks/storage/useEnabled"
-import { useMappings } from "@/popup/hooks/storage/useMappings"
-import { useTheme } from "@/popup/hooks/storage/useTheme"
-import { cn } from "@/popup/lib/utils"
+import { type Mapping } from "@/lib/types";
+import { CreateMappingForm } from "@/popup/components/create-mapping-form";
+import { SettingsDialog } from "@/popup/components/dialogs/settings-dialog";
+import { UpdateMappingForm } from "@/popup/components/dialogs/update-mapping-form";
+import { MappingList } from "@/popup/components/mapping-list";
+import { useDialog } from "@/popup/components/providers/dialog-provider";
+import { Button } from "@/popup/components/ui/button";
+import { useEnabled } from "@/popup/hooks/storage/useEnabled";
+import { useMappings } from "@/popup/hooks/storage/useMappings";
+import { useTheme } from "@/popup/hooks/storage/useTheme";
+import { cn } from "@/popup/lib/utils";
 
 function resolveTheme(theme: string) {
-  if (theme !== "system") return theme === "dark"
-  return window.matchMedia("(prefers-color-scheme: dark)").matches
+  if (theme !== "system") return theme === "dark";
+  return window.matchMedia("(prefers-color-scheme: dark)").matches;
 }
 
 export function Popup() {
-  const dialog = useDialog()
+  const dialog = useDialog();
 
-  const [mappings, setMappings] = useMappings()
-  const [enabled, setEnabled] = useEnabled()
-  const [theme] = useTheme()
+  const [mappings, setMappings] = useMappings();
+  const [enabled, setEnabled] = useEnabled();
+  const [theme] = useTheme();
 
   useEffect(() => {
     const apply = () =>
-      document.documentElement.classList.toggle("dark", resolveTheme(theme))
+      document.documentElement.classList.toggle("dark", resolveTheme(theme));
 
-    apply()
+    apply();
 
     if (theme === "system") {
-      const mq = window.matchMedia("(prefers-color-scheme: dark)")
-      mq.addEventListener("change", apply)
-      return () => mq.removeEventListener("change", apply)
+      const mq = window.matchMedia("(prefers-color-scheme: dark)");
+      mq.addEventListener("change", apply);
+      return () => mq.removeEventListener("change", apply);
     }
-  }, [theme])
+  }, [theme]);
 
   const updateMapping = (id: string, pattern: string, label: string) => {
     setMappings(
-      mappings.map((m) => (m.id === id ? { ...m, pattern, label } : m))
-    )
-  }
+      mappings.map((m) => (m.id === id ? { ...m, pattern, label } : m)),
+    );
+  };
 
   const deleteMapping = (id: string) => {
-    setMappings(mappings.filter((m) => m.id !== id))
-  }
+    setMappings(mappings.filter((m) => m.id !== id));
+  };
 
   const openSettings = () => {
     dialog.open({
       title: "Settings",
-      content: <SettingsDialog />
-    })
-  }
+      content: <SettingsDialog />,
+    });
+  };
 
   const openEditMapping = (mapping: Mapping) => {
     dialog.open({
@@ -68,9 +68,9 @@ export function Popup() {
           onSave={(pattern, label) => updateMapping(mapping.id, pattern, label)}
           onClose={() => dialog.close()}
         />
-      )
-    })
-  }
+      ),
+    });
+  };
 
   return (
     <div className="bg-background text-foreground w-[450px] font-mono">
@@ -89,7 +89,8 @@ export function Popup() {
           <Button
             variant="ghost"
             size="icon-sm"
-            onClick={() => setEnabled(!enabled)}>
+            onClick={() => setEnabled(!enabled)}
+          >
             {enabled ? (
               <LightningIcon className="text-primary size-4" weight="fill" />
             ) : (
@@ -119,12 +120,13 @@ export function Popup() {
           "flex items-center gap-1.5 px-3 py-1.5 text-[11px] font-medium transition-colors",
           enabled
             ? "bg-primary text-primary-foreground"
-            : "bg-muted text-muted-foreground"
-        )}>
+            : "bg-muted text-muted-foreground",
+        )}
+      >
         <span
           className={cn(
             "inline-block size-1.5 rounded-full",
-            enabled ? "bg-primary-foreground" : "bg-muted-foreground"
+            enabled ? "bg-primary-foreground" : "bg-muted-foreground",
           )}
         />
         {enabled
@@ -132,5 +134,5 @@ export function Popup() {
           : "Paused"}
       </div>
     </div>
-  )
+  );
 }

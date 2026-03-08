@@ -1,13 +1,13 @@
-import { Storage } from "@plasmohq/storage"
-import { useStorage } from "@plasmohq/storage/hook"
+import { Storage } from "@plasmohq/storage";
+import { useStorage } from "@plasmohq/storage/hook";
 
-import { THEME_KEY } from "@/lib/types"
+import { THEME_KEY } from "@/lib/types";
 
-export type Theme = "system" | "light" | "dark"
+export type Theme = "system" | "light" | "dark";
 
 export function useTheme() {
   return useStorage<Theme>(
     { key: THEME_KEY, instance: new Storage({ area: "local" }) },
-    (v) => (v === undefined ? "system" : v)
-  )
+    (v) => (v === undefined ? "system" : v),
+  );
 }

@@ -1,30 +1,30 @@
-import { Controller, useForm } from "react-hook-form"
+import { Controller, useForm } from "react-hook-form";
 
-import { Button } from "@/popup/components/ui/button"
-import { Input } from "@/popup/components/ui/input"
+import { Button } from "@/popup/components/ui/button";
+import { Input } from "@/popup/components/ui/input";
 
 interface FormValues {
-  pattern: string
-  label: string
+  pattern: string;
+  label: string;
 }
 
 interface UpdateMappingFormProps {
-  defaultValues: FormValues
-  onSave: (pattern: string, label: string) => void
-  onClose: () => void
+  defaultValues: FormValues;
+  onSave: (pattern: string, label: string) => void;
+  onClose: () => void;
 }
 
 export function UpdateMappingForm({
   defaultValues,
   onSave,
-  onClose
+  onClose,
 }: UpdateMappingFormProps) {
-  const { control, handleSubmit } = useForm<FormValues>({ defaultValues })
+  const { control, handleSubmit } = useForm<FormValues>({ defaultValues });
 
   const submit = (values: FormValues) => {
-    onSave(values.pattern, values.label)
-    onClose()
-  }
+    onSave(values.pattern, values.label);
+    onClose();
+  };
 
   return (
     <form onSubmit={handleSubmit(submit)} className="space-y-3">
@@ -52,7 +52,8 @@ export function UpdateMappingForm({
           variant="outline"
           size="sm"
           onClick={onClose}
-          className="flex-1">
+          className="flex-1"
+        >
           Cancel
         </Button>
         <Button type="submit" size="sm" className="flex-1">
@@ -60,5 +61,5 @@ export function UpdateMappingForm({
         </Button>
       </div>
     </form>
-  )
+  );
 }

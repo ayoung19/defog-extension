@@ -1,42 +1,42 @@
-import { PlusIcon } from "@phosphor-icons/react"
-import { Controller, useForm } from "react-hook-form"
+import { PlusIcon } from "@phosphor-icons/react";
+import { Controller, useForm } from "react-hook-form";
 
-import { Button } from "@/popup/components/ui/button"
-import { Input } from "@/popup/components/ui/input"
-import { useMappings } from "@/popup/hooks/storage/useMappings"
+import { Button } from "@/popup/components/ui/button";
+import { Input } from "@/popup/components/ui/input";
+import { useMappings } from "@/popup/hooks/storage/useMappings";
 
 interface FormValues {
-  pattern: string
-  label: string
+  pattern: string;
+  label: string;
 }
 
 export function CreateMappingForm() {
-  const [mappings, setMappings] = useMappings()
+  const [mappings, setMappings] = useMappings();
 
   const {
     control,
     handleSubmit,
     reset,
     setError,
-    formState: { errors }
+    formState: { errors },
   } = useForm<FormValues>({
-    defaultValues: { pattern: "", label: "" }
-  })
+    defaultValues: { pattern: "", label: "" },
+  });
 
   const submit = (values: FormValues) => {
     const exists = mappings.some(
-      (m) => m.pattern.toLowerCase() === values.pattern.toLowerCase()
-    )
+      (m) => m.pattern.toLowerCase() === values.pattern.toLowerCase(),
+    );
     if (exists) {
-      setError("pattern", { message: "This pattern already exists" })
-      return
+      setError("pattern", { message: "This pattern already exists" });
+      return;
     }
     setMappings([
       ...mappings,
-      { id: crypto.randomUUID(), pattern: values.pattern, label: values.label }
-    ])
-    reset()
-  }
+      { id: crypto.randomUUID(), pattern: values.pattern, label: values.label },
+    ]);
+    reset();
+  };
 
   return (
     <form onSubmit={handleSubmit(submit)} className="space-y-2 px-3 py-3">
@@ -80,5 +80,5 @@ export function CreateMappingForm() {
         Add Mapping
       </Button>
     </form>
-  )
+  );
 }
