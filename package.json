@@ -11,7 +11,8 @@
     "package": "plasmo package",
     "package:firefox": "plasmo package --target=firefox-mv2",
     "format": "prettier --write .",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.2.8",
@@ -41,11 +42,17 @@
     "concurrently": "^9.2.1",
     "eslint": "^10.0.3",
     "globals": "^17.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.3.2",
     "prettier": "3.2.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "shadcn": "^4.0.0",
     "typescript": "5.3.3",
     "typescript-eslint": "^8.56.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,mjs}": "eslint --fix",
+    "*": "prettier --write --ignore-unknown"
   },
   "manifest": {
     "host_permissions": [
