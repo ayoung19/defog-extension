@@ -2,12 +2,15 @@
   "name": "defog",
   "displayName": "Defog",
   "version": "0.0.1",
-  "description": "A basic Plasmo extension.",
+  "description": "Map UUIDs and text patterns to human-readable labels across all webpages.",
   "author": "Andy Young <andyluyoung@gmail.com>",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
-    "package": "plasmo package"
+    "package": "plasmo package",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "plasmo": "0.90.5",
@@ -15,17 +18,27 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@eslint/compat": "^2.0.3",
+    "@eslint/js": "^10.0.1",
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
     "@types/chrome": "0.0.258",
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0",
     "prettier": "3.2.4",
-    "typescript": "5.3.3"
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "typescript": "5.3.3",
+    "typescript-eslint": "^8.56.1"
   },
   "manifest": {
     "host_permissions": [
+      "http://*/*",
       "https://*/*"
+    ],
+    "permissions": [
+      "storage"
     ]
   }
 }
