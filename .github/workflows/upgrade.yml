@@ -1,0 +1,45 @@
+name: Upgrade Version
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version (e.g. 0.1.0)"
+        required: true
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Validate and bump version
+        run: |
+          pnpm install --frozen-lockfile
+          ./scripts/version-check.sh
+          npm version ${{ inputs.version }} --no-git-tag-version
+          npx prettier --write package.json
+        env:
+          VERSION: ${{ inputs.version }}
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "v${{ inputs.version }}"
+          tag: "v${{ inputs.version }}"
+
+      - uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          tags: true

@@ -1,5 +1,5 @@
 {
-  "name": "defog",
+  "name": "defog-extension",
   "displayName": "Defog",
   "version": "0.0.1",
   "description": "Map UUIDs and text patterns to human-readable labels across all webpages.",
@@ -7,10 +7,11 @@
   "scripts": {
     "dev": "concurrently \"plasmo dev\" \"tailwindcss -i popup/index.css -o popup/index.built.css --watch\"",
     "build": "tailwindcss -i popup/index.css -o popup/index.built.css --minify && plasmo build",
+    "build:firefox": "tailwindcss -i popup/index.css -o popup/index.built.css --minify && plasmo build --target=firefox-mv2",
     "package": "plasmo package",
+    "package:firefox": "plasmo package --target=firefox-mv2",
     "format": "prettier --write .",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint . --fix"
   },
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.2.8",
