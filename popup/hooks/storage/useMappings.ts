@@ -1,7 +1,7 @@
 import { Storage } from "@plasmohq/storage";
 import { useStorage } from "@plasmohq/storage/hook";
 
-import { MAPPINGS_KEY, parseMappings, type Mapping } from "@/lib/types";
+import { MAPPINGS_KEY, parseMappings, type Mapping } from "@/types/storage";
 
 export function useMappings() {
   const [raw, setRaw] = useStorage<Mapping[]>(

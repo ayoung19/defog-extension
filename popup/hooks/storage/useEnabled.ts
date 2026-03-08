@@ -1,7 +1,7 @@
 import { Storage } from "@plasmohq/storage";
 import { useStorage } from "@plasmohq/storage/hook";
 
-import { ENABLED_KEY } from "@/lib/types";
+import { ENABLED_KEY } from "@/types/storage";
 
 export function useEnabled() {
   return useStorage<boolean>(

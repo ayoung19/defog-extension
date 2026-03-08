@@ -1,7 +1,7 @@
 import { Storage } from "@plasmohq/storage";
 import { useStorage } from "@plasmohq/storage/hook";
 
-import { THEME_KEY } from "@/lib/types";
+import { THEME_KEY } from "@/types/storage";
 
 export type Theme = "system" | "light" | "dark";
 

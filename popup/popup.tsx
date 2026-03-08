@@ -5,7 +5,6 @@ import {
 } from "@phosphor-icons/react";
 import { useEffect } from "react";
 
-import { type Mapping } from "@/lib/types";
 import { CreateMappingForm } from "@/popup/components/create-mapping-form";
 import { SettingsDialog } from "@/popup/components/dialogs/settings-dialog";
 import { UpdateMappingForm } from "@/popup/components/dialogs/update-mapping-form";
@@ -16,6 +15,7 @@ import { useEnabled } from "@/popup/hooks/storage/useEnabled";
 import { useMappings } from "@/popup/hooks/storage/useMappings";
 import { useTheme } from "@/popup/hooks/storage/useTheme";
 import { cn } from "@/popup/lib/utils";
+import { type Mapping } from "@/types/storage";
 
 function resolveTheme(theme: string) {
   if (theme !== "system") return theme === "dark";

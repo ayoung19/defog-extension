@@ -1,6 +1,6 @@
 import { PencilSimpleIcon, TrashIcon } from "@phosphor-icons/react";
 
-import type { Mapping } from "@/lib/types";
+import type { Mapping } from "@/types/storage";
 
 import { Button } from "./ui/button";
 

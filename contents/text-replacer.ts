@@ -7,7 +7,7 @@ import {
   MAPPINGS_KEY,
   parseMappings,
   type Mapping,
-} from "@/lib/types";
+} from "@/types/storage";
 
 export const config: PlasmoCSConfig = {
   matches: ["http://*/*", "https://*/*"],
