@@ -55,10 +55,6 @@
     "*": "prettier --write --ignore-unknown"
   },
   "manifest": {
-    "host_permissions": [
-      "http://*/*",
-      "https://*/*"
-    ],
     "permissions": [
       "storage"
     ]
