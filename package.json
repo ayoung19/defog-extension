@@ -1,7 +1,7 @@
 {
   "name": "defog-extension",
   "displayName": "Defog — Auto Text & Word Replacer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically replace text, words, UUIDs, and patterns with readable labels on any website. Open source.",
   "author": "Andy Young <andyluyoung@gmail.com>",
   "scripts": {
