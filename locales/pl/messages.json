@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 aktywne zastąpienie" },
+  "statusActiveOther": { "message": "aktywne zamienniki" },
+  "statusPaused": { "message": "Wstrzymane" },
+  "addMapping": { "message": "Dodaj mapowanie" },
+  "patternPlaceholder": { "message": "Wzorzec do dopasowania (np. UUID)" },
+  "labelPlaceholder": { "message": "Czytelna etykieta (np. Andy)" },
+  "patternRequired": { "message": "Wzorzec jest wymagany" },
+  "labelRequired": { "message": "Etykieta jest wymagana" },
+  "patternExists": { "message": "Ten wzorzec już istnieje" },
+  "emptyStateTitle": { "message": "Nie ma jeszcze mapowań" },
+  "emptyStateDescription": {
+    "message": "Dodaj wzorzec powyżej, aby rozpocząć"
+  },
+  "editMapping": { "message": "Edytuj mapowanie" },
+  "editPatternPlaceholder": { "message": "Wzorzec do dopasowania" },
+  "editLabelPlaceholder": { "message": "Czytelna etykieta" },
+  "save": { "message": "Zapisz" },
+  "cancel": { "message": "Anuluj" },
+  "close": { "message": "Zamknij" },
+  "settings": { "message": "Ustawienia" },
+  "settingsSectionGeneral": { "message": "Ogólne" },
+  "settingsThemeLabel": { "message": "Motyw" },
+  "settingsThemeDescription": { "message": "Wybierz wygląd Defog" },
+  "themeSystem": { "message": "System" },
+  "themeLight": { "message": "Światło" },
+  "themeDark": { "message": "Ciemny" }
+}

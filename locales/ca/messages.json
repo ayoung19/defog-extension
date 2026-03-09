@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Desboirar" },
+  "statusActiveOne": { "message": "1 substitució activa" },
+  "statusActiveOther": { "message": "reemplaçaments actius" },
+  "statusPaused": { "message": "Aturat" },
+  "addMapping": { "message": "Afegeix mapeig" },
+  "patternPlaceholder": {
+    "message": "Patró per fer la correspondència (p. ex. un UUID)"
+  },
+  "labelPlaceholder": { "message": "Etiqueta llegible (p. ex. Andy)" },
+  "patternRequired": { "message": "El patró és obligatori" },
+  "labelRequired": { "message": "L'etiqueta és obligatòria" },
+  "patternExists": { "message": "Aquest patró ja existeix" },
+  "emptyStateTitle": { "message": "Encara no hi ha cap mapat" },
+  "emptyStateDescription": {
+    "message": "Afegeix un patró a dalt per començar"
+  },
+  "editMapping": { "message": "Edita la mapatura" },
+  "editPatternPlaceholder": { "message": "Patró per fer una correspondència" },
+  "editLabelPlaceholder": { "message": "Etiqueta llegible" },
+  "save": { "message": "Desa" },
+  "cancel": { "message": "Desestimar" },
+  "close": { "message": "Tanca" },
+  "settings": { "message": "Configuració" },
+  "settingsSectionGeneral": { "message": "General" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": { "message": "Tria com es veu Defog" },
+  "themeSystem": { "message": "Sistema" },
+  "themeLight": { "message": "Llum" },
+  "themeDark": { "message": "Fosc" }
+}

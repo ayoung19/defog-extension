@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "ডিফগ" },
+  "statusActiveOne": { "message": "১টি প্রতিস্থাপন সক্রিয়" },
+  "statusActiveOther": { "message": "প্রতিস্থাপন সক্রিয়" },
+  "statusPaused": { "message": "স্থগিত" },
+  "addMapping": { "message": "ম্যাপিং যোগ করুন" },
+  "patternPlaceholder": { "message": "মেলানোর প্যাটার্ন (যেমন একটি UUID)" },
+  "labelPlaceholder": { "message": "পঠনযোগ্য লেবেল (যেমন: এন্ডি)" },
+  "patternRequired": { "message": "প্যাটার্ন আবশ্যক" },
+  "labelRequired": { "message": "লেবেল আবশ্যক" },
+  "patternExists": { "message": "এই প্যাটার্নটি ইতিমধ্যেই বিদ্যমান" },
+  "emptyStateTitle": { "message": "এখনও কোনো ম্যাপিং নেই" },
+  "emptyStateDescription": {
+    "message": "শুরু করতে উপরের প্যাটার্নটি যোগ করুন"
+  },
+  "editMapping": { "message": "ম্যাপিং সম্পাদনা করুন" },
+  "editPatternPlaceholder": { "message": "মেলানোর জন্য প্যাটার্ন" },
+  "editLabelPlaceholder": { "message": "পঠনযোগ্য লেবেল" },
+  "save": { "message": "সংরক্ষণ" },
+  "cancel": { "message": "বাতিল" },
+  "close": { "message": "বন্ধ করুন" },
+  "settings": { "message": "সেটিংস" },
+  "settingsSectionGeneral": { "message": "সাধারণ" },
+  "settingsThemeLabel": { "message": "থিম" },
+  "settingsThemeDescription": { "message": "নির্বাচন করুন Defog কেমন দেখাবে" },
+  "themeSystem": { "message": "সিস্টেম" },
+  "themeLight": { "message": "হালকা" },
+  "themeDark": { "message": "ডার্ক" }
+}

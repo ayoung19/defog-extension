@@ -28,7 +28,7 @@ export function CreateMappingForm() {
       (m) => m.pattern.toLowerCase() === values.pattern.toLowerCase(),
     );
     if (exists) {
-      setError("pattern", { message: "This pattern already exists" });
+      setError("pattern", { message: chrome.i18n.getMessage("patternExists") });
       return;
     }
     setMappings([
@@ -44,11 +44,11 @@ export function CreateMappingForm() {
         <Controller
           control={control}
           name="pattern"
-          rules={{ required: "Pattern is required" }}
+          rules={{ required: chrome.i18n.getMessage("patternRequired") }}
           render={({ field }) => (
             <Input
               autoFocus
-              placeholder="Pattern to match (e.g. a UUID)"
+              placeholder={chrome.i18n.getMessage("patternPlaceholder")}
               className={errors.pattern ? "border-destructive" : ""}
               {...field}
             />
@@ -62,10 +62,10 @@ export function CreateMappingForm() {
         <Controller
           control={control}
           name="label"
-          rules={{ required: "Label is required" }}
+          rules={{ required: chrome.i18n.getMessage("labelRequired") }}
           render={({ field }) => (
             <Input
-              placeholder="Readable label (e.g. Andy)"
+              placeholder={chrome.i18n.getMessage("labelPlaceholder")}
               className={errors.label ? "border-destructive" : ""}
               {...field}
             />
@@ -77,7 +77,7 @@ export function CreateMappingForm() {
       </div>
       <Button type="submit" size="sm" className="w-full">
         <PlusIcon className="mr-1.5 size-3.5" weight="bold" />
-        Add Mapping
+        {chrome.i18n.getMessage("addMapping")}
       </Button>
     </form>
   );

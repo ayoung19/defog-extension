@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "Aktīva 1 aizvietošana" },
+  "statusActiveOther": { "message": "aizvietojumi aktīvi" },
+  "statusPaused": { "message": "Pausts" },
+  "addMapping": { "message": "Pievienot kartēšanu" },
+  "patternPlaceholder": { "message": "Atbilstīgais paraugs (piemēram, UUID)" },
+  "labelPlaceholder": { "message": "Lasāmā etiķete (piemēram, Andy)" },
+  "patternRequired": { "message": "Pattern ir obligāts" },
+  "labelRequired": { "message": "Marķējums ir obligāts" },
+  "patternExists": { "message": "Šis modelis jau pastāv" },
+  "emptyStateTitle": { "message": "Vēl nav kartējumu" },
+  "emptyStateDescription": {
+    "message": "Lai sāktu darbu, pievienojiet iepriekšminēto modeli"
+  },
+  "editMapping": { "message": "Rediģēt kartēšanu" },
+  "editPatternPlaceholder": { "message": "Atbilstīgais paraugs" },
+  "editLabelPlaceholder": { "message": "Lasāmā etiķete" },
+  "save": { "message": "Saglabāt" },
+  "cancel": { "message": "Atcelt" },
+  "close": { "message": "Aizvērt" },
+  "settings": { "message": "Iestatījumi" },
+  "settingsSectionGeneral": { "message": "Vispārīgi" },
+  "settingsThemeLabel": { "message": "Tēma" },
+  "settingsThemeDescription": { "message": "Izvēlieties, kā izskatās Defog" },
+  "themeSystem": { "message": "Sistēma" },
+  "themeLight": { "message": "Gaisma" },
+  "themeDark": { "message": "Tumšais" }
+}

@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "لغو تاری" },
+  "statusActiveOne": { "message": "۱ جایگزینی فعال" },
+  "statusActiveOther": { "message": "تعویض‌ها فعال" },
+  "statusPaused": { "message": "متوقف" },
+  "addMapping": { "message": "افزودن نگاشت" },
+  "patternPlaceholder": { "message": "الگوی تطبیق (مثلاً یک UUID)" },
+  "labelPlaceholder": { "message": "برچسب قابل خواندن (مثلاً اندی)" },
+  "patternRequired": { "message": "الگو الزامی است" },
+  "labelRequired": { "message": "برچسب الزامی است" },
+  "patternExists": { "message": "این الگو قبلاً وجود دارد" },
+  "emptyStateTitle": { "message": "هنوز هیچ نگاشتی وجود ندارد" },
+  "emptyStateDescription": {
+    "message": "برای شروع، یک الگو در بالا اضافه کنید"
+  },
+  "editMapping": { "message": "ویرایش نگاشت" },
+  "editPatternPlaceholder": { "message": "الگوی تطبیق" },
+  "editLabelPlaceholder": { "message": "برچسب قابل خواندن" },
+  "save": { "message": "ذخیره" },
+  "cancel": { "message": " لغو" },
+  "close": { "message": "بستن" },
+  "settings": { "message": "تنظیمات" },
+  "settingsSectionGeneral": { "message": "عمومی" },
+  "settingsThemeLabel": { "message": "تم" },
+  "settingsThemeDescription": { "message": "انتخاب نحوه نمایش Defog" },
+  "themeSystem": { "message": "سیستم" },
+  "themeLight": { "message": "روشن" },
+  "themeDark": { "message": "تیره" }
+}

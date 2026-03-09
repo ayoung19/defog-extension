@@ -1,0 +1,33 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 değiştirme etkin" },
+  "statusActiveOther": { "message": "değiştirmeler etkin" },
+  "statusPaused": { "message": "Duraklatıldı" },
+  "addMapping": { "message": "Eşleme Ekle" },
+  "patternPlaceholder": {
+    "message": "Eşleştirilecek desen (örneğin bir UUID)"
+  },
+  "labelPlaceholder": { "message": "Okunabilir etiket (örn. Andy)" },
+  "patternRequired": { "message": "Desen gereklidir" },
+  "labelRequired": { "message": "Etiket zorunludur" },
+  "patternExists": { "message": "Bu desen zaten var" },
+  "emptyStateTitle": { "message": "Henüz eşleme yok" },
+  "emptyStateDescription": {
+    "message": "Başlamak için yukarıya bir kalıp ekleyin"
+  },
+  "editMapping": { "message": "Eşlemeyi düzenle" },
+  "editPatternPlaceholder": { "message": "Eşleşecek desen" },
+  "editLabelPlaceholder": { "message": "Okunabilir etiket" },
+  "save": { "message": "Kaydet" },
+  "cancel": { "message": "İptal" },
+  "close": { "message": "Kapat" },
+  "settings": { "message": "Ayarlar" },
+  "settingsSectionGeneral": { "message": "Genel" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": {
+    "message": "Defog'un nasıl görüneceğini seçin"
+  },
+  "themeSystem": { "message": "Sistem" },
+  "themeLight": { "message": "Işık" },
+  "themeDark": { "message": "Karanlık" }
+}

@@ -1,0 +1,33 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 બદલી સક્રિય" },
+  "statusActiveOther": { "message": "બદલાવ સક્રિય" },
+  "statusPaused": { "message": "રોકાયેલ" },
+  "addMapping": { "message": "મેપિંગ ઉમેરો" },
+  "patternPlaceholder": {
+    "message": "મેળવવા માટેનું પેટર્ન (ઉદાહરણ તરીકે UUID)"
+  },
+  "labelPlaceholder": {
+    "message": "વાંચી શકાય તેવું લેબલ (ઉદાહરણ તરીકે એન્ડી)"
+  },
+  "patternRequired": { "message": "પેટર્ન ફરજિયાત છે" },
+  "labelRequired": { "message": "લેબલ ફરજિયાત છે" },
+  "patternExists": { "message": "આ પેટર્ન પહેલેથી જ અસ્તિત્વમાં છે" },
+  "emptyStateTitle": { "message": "હજી સુધી કોઈ મેપિંગ નથી" },
+  "emptyStateDescription": { "message": "શરૂઆત કરવા માટે ઉપર એક પેટર્ન ઉમેરો" },
+  "editMapping": { "message": "મેપિંગ સંપાદિત કરો" },
+  "editPatternPlaceholder": { "message": "મેળવવા માટેનું પેટર્ન" },
+  "editLabelPlaceholder": { "message": "વાંચી શકાય તેવું લેબલ" },
+  "save": { "message": "સેવ" },
+  "cancel": { "message": "રદ કરો" },
+  "close": { "message": "બંધ કરો" },
+  "settings": { "message": "સેટિંગ્સ" },
+  "settingsSectionGeneral": { "message": "સામાન્ય" },
+  "settingsThemeLabel": { "message": "થિમ" },
+  "settingsThemeDescription": {
+    "message": "પસંદ કરો કે Defog કેવી રીતે દેખાય"
+  },
+  "themeSystem": { "message": "સિસ્ટમ" },
+  "themeLight": { "message": "હલકો" },
+  "themeDark": { "message": "ડાર્ક" }
+}

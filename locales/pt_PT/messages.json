@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 substituição ativa" },
+  "statusActiveOther": { "message": "substituições activas" },
+  "statusPaused": { "message": "Em pausa" },
+  "addMapping": { "message": "Adicionar mapeamento" },
+  "patternPlaceholder": {
+    "message": "Padrão a corresponder (por exemplo, um UUID)"
+  },
+  "labelPlaceholder": { "message": "Etiqueta legível (por exemplo, Andy)" },
+  "patternRequired": { "message": "O padrão é obrigatório" },
+  "labelRequired": { "message": "A etiqueta é obrigatória" },
+  "patternExists": { "message": "Este padrão já existe" },
+  "emptyStateTitle": { "message": "Ainda não há mapeamentos" },
+  "emptyStateDescription": {
+    "message": "Adicione um padrão acima para começar"
+  },
+  "editMapping": { "message": "Editar mapeamento" },
+  "editPatternPlaceholder": { "message": "Padrão a corresponder" },
+  "editLabelPlaceholder": { "message": "Etiqueta legível" },
+  "save": { "message": "Guardar" },
+  "cancel": { "message": "Cancelar" },
+  "close": { "message": "Fechar" },
+  "settings": { "message": "Definições" },
+  "settingsSectionGeneral": { "message": "Geral" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": { "message": "Escolher o aspeto do Defog" },
+  "themeSystem": { "message": "Sistema operativo" },
+  "themeLight": { "message": "Luz" },
+  "themeDark": { "message": "Escuro" }
+}

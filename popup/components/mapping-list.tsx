@@ -14,9 +14,9 @@ export function MappingList({ mappings, onEdit, onDelete }: MappingListProps) {
   if (mappings.length === 0) {
     return (
       <div className="text-muted-foreground flex flex-col items-center justify-center py-10">
-        <p className="text-sm">No mappings yet</p>
+        <p className="text-sm">{chrome.i18n.getMessage("emptyStateTitle")}</p>
         <p className="mt-1 text-xs opacity-70">
-          Add a pattern above to get started
+          {chrome.i18n.getMessage("emptyStateDescription")}
         </p>
       </div>
     );

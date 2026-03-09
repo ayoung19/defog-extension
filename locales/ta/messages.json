@@ -1,0 +1,33 @@
+{
+  "appName": { "message": "மூடுபனி நீக்கு" },
+  "statusActiveOne": { "message": "1 மாற்று செயலில் உள்ளது" },
+  "statusActiveOther": { "message": "மாற்றுதல்கள் செயலில் உள்ளன" },
+  "statusPaused": { "message": "நிறுத்தப்பட்டது" },
+  "addMapping": { "message": "மேப்பிங்கைச் சேர்" },
+  "patternPlaceholder": {
+    "message": "பொருத்துவதற்கான மாதிரி (எ.கா. ஒரு UUID)"
+  },
+  "labelPlaceholder": { "message": "படிக்கக்கூடிய லேபிள் (எ.கா. ஆண்டி)" },
+  "patternRequired": { "message": "வடிவம் கட்டாயம்" },
+  "labelRequired": { "message": "லேபிள் கட்டாயம்" },
+  "patternExists": { "message": "இந்த மாதிரி ஏற்கனவே உள்ளது" },
+  "emptyStateTitle": { "message": "இன்னும் வரைபடங்கள் இல்லை" },
+  "emptyStateDescription": {
+    "message": "தொடங்குவதற்கு மேலே ஒரு பாணியைச் சேர்க்கவும்"
+  },
+  "editMapping": { "message": "வரைபடத்தைத் திருத்து" },
+  "editPatternPlaceholder": { "message": "பொருத்த வேண்டிய மாதிரி" },
+  "editLabelPlaceholder": { "message": "படிக்கக்கூடிய லேபிள்" },
+  "save": { "message": "சேமி" },
+  "cancel": { "message": "ரத்து செய்" },
+  "close": { "message": "மூடுக" },
+  "settings": { "message": "அமைப்புகள்" },
+  "settingsSectionGeneral": { "message": "பொதுவானது" },
+  "settingsThemeLabel": { "message": "கருப்பொருள்" },
+  "settingsThemeDescription": {
+    "message": "Defog எப்படி இருக்கும் என்பதைத் தேர்ந்தெடுக்கவும்"
+  },
+  "themeSystem": { "message": "அமைப்பு" },
+  "themeLight": { "message": "லேசான" },
+  "themeDark": { "message": "இருள்" }
+}

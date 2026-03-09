@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "Aktivní 1 nahrazení" },
+  "statusActiveOther": { "message": "nahrazení aktivní" },
+  "statusPaused": { "message": "Pozastaveno" },
+  "addMapping": { "message": "Přidat mapování" },
+  "patternPlaceholder": {
+    "message": "Vzor, který má být porovnán (např. UUID)"
+  },
+  "labelPlaceholder": { "message": "Čitelný štítek (např. Andy)" },
+  "patternRequired": { "message": "Vzor je povinný" },
+  "labelRequired": { "message": "Štítek je povinný" },
+  "patternExists": { "message": "Tento vzor již existuje" },
+  "emptyStateTitle": { "message": "Zatím žádné mapování" },
+  "emptyStateDescription": { "message": "Přidejte vzor výše a začněte" },
+  "editMapping": { "message": "Upravit mapování" },
+  "editPatternPlaceholder": { "message": "Vzor, který má odpovídat" },
+  "editLabelPlaceholder": { "message": "Čitelný štítek" },
+  "save": { "message": "Uložit" },
+  "cancel": { "message": "Zrušit" },
+  "close": { "message": "Zavřít" },
+  "settings": { "message": "Nastavení" },
+  "settingsSectionGeneral": { "message": "Obecné" },
+  "settingsThemeLabel": { "message": "Téma" },
+  "settingsThemeDescription": { "message": "Zvolte, jak bude vypadat Defog" },
+  "themeSystem": { "message": "Systém" },
+  "themeLight": { "message": "Světlo" },
+  "themeDark": { "message": "Tmavý" }
+}

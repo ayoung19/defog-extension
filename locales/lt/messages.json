@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "Įjungtas 1 pakeitimas" },
+  "statusActiveOther": { "message": "Pakeitimai aktyvūs" },
+  "statusPaused": { "message": "Paused" },
+  "addMapping": { "message": "Pridėti žemėlapį" },
+  "patternPlaceholder": { "message": "Atitikimo šablonas (pvz., UUID)" },
+  "labelPlaceholder": { "message": "Įskaitoma etiketė (pvz., Andy)" },
+  "patternRequired": { "message": "Šablonas yra privalomas" },
+  "labelRequired": { "message": "Etiketė yra privaloma" },
+  "patternExists": { "message": "Šis šablonas jau egzistuoja" },
+  "emptyStateTitle": { "message": "Dar nėra žemėlapių" },
+  "emptyStateDescription": {
+    "message": "Norėdami pradėti, pridėkite viršuje esantį šabloną"
+  },
+  "editMapping": { "message": "Redaguoti žemėlapį" },
+  "editPatternPlaceholder": { "message": "Atitikimo šablonas" },
+  "editLabelPlaceholder": { "message": "Įskaitoma etiketė" },
+  "save": { "message": "Išsaugoti" },
+  "cancel": { "message": "Atšaukti" },
+  "close": { "message": "Uždaryti" },
+  "settings": { "message": "Nustatymai" },
+  "settingsSectionGeneral": { "message": "Bendra" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": { "message": "Pasirinkite, kaip atrodys Defog" },
+  "themeSystem": { "message": "Sistema" },
+  "themeLight": { "message": "Šviesa" },
+  "themeDark": { "message": "Tamsus" }
+}

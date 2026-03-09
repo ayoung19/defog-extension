@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 csere aktív" },
+  "statusActiveOther": { "message": "cserék aktív" },
+  "statusPaused": { "message": "Paused" },
+  "addMapping": { "message": "Társítás hozzáadása" },
+  "patternPlaceholder": { "message": "A megfeleltetendő minta (pl. UUID)" },
+  "labelPlaceholder": { "message": "Olvasható címke (pl. Andy)" },
+  "patternRequired": { "message": "A minta kötelező" },
+  "labelRequired": { "message": "A címke kötelező" },
+  "patternExists": { "message": "Ez a minta már létezik" },
+  "emptyStateTitle": { "message": "Még nincsenek hozzárendelések" },
+  "emptyStateDescription": {
+    "message": "Adjon hozzá egy mintát a fenti kezdéshez"
+  },
+  "editMapping": { "message": "Feltérképezés szerkesztése" },
+  "editPatternPlaceholder": { "message": "Megfelelő minta" },
+  "editLabelPlaceholder": { "message": "Olvasható címke" },
+  "save": { "message": "Mentés" },
+  "cancel": { "message": "Cancel" },
+  "close": { "message": "Bezárás" },
+  "settings": { "message": "Beállítások" },
+  "settingsSectionGeneral": { "message": "Általános" },
+  "settingsThemeLabel": { "message": "Téma" },
+  "settingsThemeDescription": {
+    "message": "Válassza ki, hogyan nézzen ki a Defog"
+  },
+  "themeSystem": { "message": "Rendszer" },
+  "themeLight": { "message": "Fény" },
+  "themeDark": { "message": "Sötét" }
+}

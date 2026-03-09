@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 udskiftning aktiv" },
+  "statusActiveOther": { "message": "udskiftninger aktive" },
+  "statusPaused": { "message": "Pauseret" },
+  "addMapping": { "message": "Tilføj mapping" },
+  "patternPlaceholder": {
+    "message": "Mønster, der skal matches (f.eks. et UUID)"
+  },
+  "labelPlaceholder": { "message": "Læsbar etiket (f.eks. Andy)" },
+  "patternRequired": { "message": "Mønster er påkrævet" },
+  "labelRequired": { "message": "Etiketten er påkrævet" },
+  "patternExists": { "message": "Dette mønster findes allerede" },
+  "emptyStateTitle": { "message": "Ingen mappinger endnu" },
+  "emptyStateDescription": {
+    "message": "Tilføj et mønster ovenfor for at komme i gang"
+  },
+  "editMapping": { "message": "Rediger mapping" },
+  "editPatternPlaceholder": { "message": "Mønster til at matche" },
+  "editLabelPlaceholder": { "message": "Læsbar etiket" },
+  "save": { "message": "Gem" },
+  "cancel": { "message": "Annuller" },
+  "close": { "message": "Luk" },
+  "settings": { "message": "Indstillinger" },
+  "settingsSectionGeneral": { "message": "Generelt" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": { "message": "Vælg, hvordan Defog ser ud" },
+  "themeSystem": { "message": "System" },
+  "themeLight": { "message": "Lys" },
+  "themeDark": { "message": "Mørk" }
+}

@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 ersättning aktiv" },
+  "statusActiveOther": { "message": "ersättningar aktiva" },
+  "statusPaused": { "message": "Pausad" },
+  "addMapping": { "message": "Lägg till mappning" },
+  "patternPlaceholder": {
+    "message": "Mönster som ska matchas (t.ex. ett UUID)"
+  },
+  "labelPlaceholder": { "message": "Läsbar etikett (t.ex. Andy)" },
+  "patternRequired": { "message": "Mönster är obligatoriskt" },
+  "labelRequired": { "message": "Etikett är obligatorisk" },
+  "patternExists": { "message": "Detta mönster finns redan" },
+  "emptyStateTitle": { "message": "Inga mappningar ännu" },
+  "emptyStateDescription": {
+    "message": "Lägg till ett mönster ovan för att komma igång"
+  },
+  "editMapping": { "message": "Redigera mappning" },
+  "editPatternPlaceholder": { "message": "Mönster att matcha" },
+  "editLabelPlaceholder": { "message": "Läsbar etikett" },
+  "save": { "message": "Spara" },
+  "cancel": { "message": "Avbryt" },
+  "close": { "message": "Stäng" },
+  "settings": { "message": "Inställningar" },
+  "settingsSectionGeneral": { "message": "Allmänt" },
+  "settingsThemeLabel": { "message": "Temat" },
+  "settingsThemeDescription": { "message": "Välj hur Defog ser ut" },
+  "themeSystem": { "message": "Systemet" },
+  "themeLight": { "message": "Ljus" },
+  "themeDark": { "message": "Mörkt" }
+}

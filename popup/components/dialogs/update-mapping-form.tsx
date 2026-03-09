@@ -34,7 +34,11 @@ export function UpdateMappingForm({
           name="pattern"
           rules={{ required: true }}
           render={({ field }) => (
-            <Input autoFocus placeholder="Pattern to match" {...field} />
+            <Input
+              autoFocus
+              placeholder={chrome.i18n.getMessage("editPatternPlaceholder")}
+              {...field}
+            />
           )}
         />
         <Controller
@@ -42,7 +46,10 @@ export function UpdateMappingForm({
           name="label"
           rules={{ required: true }}
           render={({ field }) => (
-            <Input placeholder="Readable label" {...field} />
+            <Input
+              placeholder={chrome.i18n.getMessage("editLabelPlaceholder")}
+              {...field}
+            />
           )}
         />
       </div>
@@ -54,10 +61,10 @@ export function UpdateMappingForm({
           onClick={onClose}
           className="flex-1"
         >
-          Cancel
+          {chrome.i18n.getMessage("cancel")}
         </Button>
         <Button type="submit" size="sm" className="flex-1">
-          Save
+          {chrome.i18n.getMessage("save")}
         </Button>
       </div>
     </form>

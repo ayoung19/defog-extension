@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 αντικατάσταση ενεργή" },
+  "statusActiveOther": { "message": "Αντικαταστάσεις ενεργές" },
+  "statusPaused": { "message": "Παύση" },
+  "addMapping": { "message": "Προσθήκη αντιστοίχισης" },
+  "patternPlaceholder": {
+    "message": "Μοτίβο προς αντιστοίχιση (π.χ. ένα UUID)"
+  },
+  "labelPlaceholder": { "message": "Αναγνώσιμη ετικέτα (π.χ. Andy)" },
+  "patternRequired": { "message": "Το μοτίβο είναι υποχρεωτικό" },
+  "labelRequired": { "message": "Η ετικέτα είναι υποχρεωτική" },
+  "patternExists": { "message": "Αυτό το μοτίβο υπάρχει ήδη" },
+  "emptyStateTitle": { "message": "Δεν υπάρχουν ακόμη αντιστοιχίσεις" },
+  "emptyStateDescription": {
+    "message": "Προσθέστε ένα μοτίβο παραπάνω για να ξεκινήσετε"
+  },
+  "editMapping": { "message": "Επεξεργασία χαρτογράφησης" },
+  "editPatternPlaceholder": { "message": "Μοτίβο προς αντιστοίχιση" },
+  "editLabelPlaceholder": { "message": "Αναγνώσιμη ετικέτα" },
+  "save": { "message": "Αποθήκευση" },
+  "cancel": { "message": "Ακύρωση" },
+  "close": { "message": "Κλείσιμο" },
+  "settings": { "message": "Ρυθμίσεις" },
+  "settingsSectionGeneral": { "message": "Γενικά" },
+  "settingsThemeLabel": { "message": "Θέμα" },
+  "settingsThemeDescription": { "message": "Επιλέξτε πώς φαίνεται το Defog" },
+  "themeSystem": { "message": "Σύστημα" },
+  "themeLight": { "message": "Φως" },
+  "themeDark": { "message": "Σκοτεινό" }
+}

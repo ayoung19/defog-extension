@@ -55,14 +55,14 @@ export function Popup() {
 
   const openSettings = () => {
     dialog.open({
-      title: "Settings",
+      title: chrome.i18n.getMessage("settings"),
       content: <SettingsDialog />,
     });
   };
 
   const openEditMapping = (mapping: Mapping) => {
     dialog.open({
-      title: "Edit mapping",
+      title: chrome.i18n.getMessage("editMapping"),
       content: (
         <UpdateMappingForm
           defaultValues={{ pattern: mapping.pattern, label: mapping.label }}
@@ -73,12 +73,20 @@ export function Popup() {
     });
   };
 
+  const statusText = enabled
+    ? mappings.length === 1
+      ? chrome.i18n.getMessage("statusActiveOne")
+      : `${mappings.length} ${chrome.i18n.getMessage("statusActiveOther")}`
+    : chrome.i18n.getMessage("statusPaused");
+
   return (
     <div className="bg-background text-foreground w-[450px] font-mono">
       {/* Header */}
       <div className="border-border flex items-center justify-between border-b px-4 py-3">
         <div className="flex items-center gap-2">
-          <h1 className="text-base font-semibold tracking-tight">Defog</h1>
+          <h1 className="text-base font-semibold tracking-tight">
+            {chrome.i18n.getMessage("appName")}
+          </h1>
           <span className="bg-secondary text-muted-foreground rounded-full px-2 py-0.5 text-[10px] font-medium">
             {mappings.length}
           </span>
@@ -134,9 +142,7 @@ export function Popup() {
             enabled ? "bg-primary-foreground" : "bg-muted-foreground",
           )}
         />
-        {enabled
-          ? `${mappings.length} replacement${mappings.length !== 1 ? "s" : ""} active`
-          : "Paused"}
+        {statusText}
       </div>
     </div>
   );

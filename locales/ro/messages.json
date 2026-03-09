@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 înlocuire activă" },
+  "statusActiveOther": { "message": "înlocuiri active" },
+  "statusPaused": { "message": "Pauză" },
+  "addMapping": { "message": "Adăugați maparea" },
+  "patternPlaceholder": {
+    "message": "Model care urmează să se potrivească (de exemplu, un UUID)"
+  },
+  "labelPlaceholder": { "message": "Etichetă lizibilă (de exemplu, Andy)" },
+  "patternRequired": { "message": "Modelul este obligatoriu" },
+  "labelRequired": { "message": "Eticheta este obligatorie" },
+  "patternExists": { "message": "Acest model există deja" },
+  "emptyStateTitle": { "message": "Nu există încă corespondențe" },
+  "emptyStateDescription": {
+    "message": "Adăugați un model mai sus pentru a începe"
+  },
+  "editMapping": { "message": "Editarea hărții" },
+  "editPatternPlaceholder": { "message": "Model pentru potrivire" },
+  "editLabelPlaceholder": { "message": "Etichetă lizibilă" },
+  "save": { "message": "Salvare" },
+  "cancel": { "message": "Anulare" },
+  "close": { "message": "Închidere" },
+  "settings": { "message": "Setări" },
+  "settingsSectionGeneral": { "message": "Generalități" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": { "message": "Alegeți cum arată Defog" },
+  "themeSystem": { "message": "Sistem" },
+  "themeLight": { "message": "Lumină" },
+  "themeDark": { "message": "Întunecat" }
+}

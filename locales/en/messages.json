@@ -1,0 +1,102 @@
+{
+  "appName": {
+    "message": "Defog",
+    "description": "The name of the extension displayed in the popup header."
+  },
+  "statusActiveOne": {
+    "message": "1 replacement active",
+    "description": "Status bar text when replacements are enabled and there is exactly one mapping."
+  },
+  "statusActiveOther": {
+    "message": "replacements active",
+    "description": "Status bar text when replacements are enabled and there are multiple mappings. The number is prepended by the app."
+  },
+  "statusPaused": {
+    "message": "Paused",
+    "description": "Status bar text when replacements are paused."
+  },
+  "addMapping": {
+    "message": "Add Mapping",
+    "description": "Button label to submit a new pattern-to-label mapping."
+  },
+  "patternPlaceholder": {
+    "message": "Pattern to match (e.g. a UUID)",
+    "description": "Placeholder text for the pattern input field when creating a mapping."
+  },
+  "labelPlaceholder": {
+    "message": "Readable label (e.g. Andy)",
+    "description": "Placeholder text for the label input field when creating a mapping."
+  },
+  "patternRequired": {
+    "message": "Pattern is required",
+    "description": "Validation error shown when the pattern field is empty."
+  },
+  "labelRequired": {
+    "message": "Label is required",
+    "description": "Validation error shown when the label field is empty."
+  },
+  "patternExists": {
+    "message": "This pattern already exists",
+    "description": "Validation error shown when a duplicate pattern is entered."
+  },
+  "emptyStateTitle": {
+    "message": "No mappings yet",
+    "description": "Title shown when the mapping list is empty."
+  },
+  "emptyStateDescription": {
+    "message": "Add a pattern above to get started",
+    "description": "Help text shown below the empty state title."
+  },
+  "editMapping": {
+    "message": "Edit mapping",
+    "description": "Dialog title when editing an existing mapping."
+  },
+  "editPatternPlaceholder": {
+    "message": "Pattern to match",
+    "description": "Placeholder text for the pattern input field when editing a mapping."
+  },
+  "editLabelPlaceholder": {
+    "message": "Readable label",
+    "description": "Placeholder text for the label input field when editing a mapping."
+  },
+  "save": {
+    "message": "Save",
+    "description": "Button label to save changes in a dialog."
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Button label to dismiss a dialog without saving."
+  },
+  "close": {
+    "message": "Close",
+    "description": "Accessible label for the close button on dialogs."
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Dialog title for the settings panel."
+  },
+  "settingsSectionGeneral": {
+    "message": "General",
+    "description": "Section header in the settings dialog."
+  },
+  "settingsThemeLabel": {
+    "message": "Theme",
+    "description": "Label for the theme setting."
+  },
+  "settingsThemeDescription": {
+    "message": "Choose how Defog looks",
+    "description": "Description text for the theme setting."
+  },
+  "themeSystem": {
+    "message": "System",
+    "description": "Theme option that follows the operating system preference."
+  },
+  "themeLight": {
+    "message": "Light",
+    "description": "Theme option for light mode."
+  },
+  "themeDark": {
+    "message": "Dark",
+    "description": "Theme option for dark mode."
+  }
+}

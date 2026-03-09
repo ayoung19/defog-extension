@@ -1,0 +1,33 @@
+{
+  "appName": { "message": "മൂടൽമഞ്ഞ് നീക്കുക" },
+  "statusActiveOne": { "message": "1 മാറ്റം സജീവം" },
+  "statusActiveOther": { "message": "പകരംവയ്ക്കലുകൾ സജീവം" },
+  "statusPaused": { "message": "താൽക്കാലികമായി നിർത്തി" },
+  "addMapping": { "message": "മാപ്പിംഗ് ചേർക്കുക" },
+  "patternPlaceholder": {
+    "message": "പരിഗണിക്കാനുള്ള പാറ്റേൺ (ഉദാ. ഒരു UUID)"
+  },
+  "labelPlaceholder": { "message": "വായിക്കാൻ കഴിയുന്ന ലേബൽ (ഉദാ. ആൻഡി)" },
+  "patternRequired": { "message": "പേറ്റേൺ ആവശ്യമാണ്" },
+  "labelRequired": { "message": "ലേബൽ ആവശ്യമാണ്" },
+  "patternExists": { "message": "ഈ പാറ്റേൺ ഇതിനകം നിലവിലുണ്ട്" },
+  "emptyStateTitle": { "message": "ഇതുവരെ മാപ്പിംഗുകളൊന്നും ഇല്ല" },
+  "emptyStateDescription": {
+    "message": "തുടങ്ങുന്നതിനായി മുകളിൽ ഒരു പാറ്റേൺ ചേർക്കുക"
+  },
+  "editMapping": { "message": "മാപ്പിംഗ് എഡിറ്റ് ചെയ്യുക" },
+  "editPatternPlaceholder": { "message": "പരിശോധിക്കാനുള്ള പാറ്റേൺ" },
+  "editLabelPlaceholder": { "message": "വായിക്കാവുന്ന ലേബൽ" },
+  "save": { "message": "സേവ് ചെയ്യുക" },
+  "cancel": { "message": "റദ്ദാക്കുക" },
+  "close": { "message": "അടയ്ക്കുക" },
+  "settings": { "message": "ക്രമീകരണങ്ങൾ" },
+  "settingsSectionGeneral": { "message": "പൊതുവായത്" },
+  "settingsThemeLabel": { "message": "തീം" },
+  "settingsThemeDescription": {
+    "message": "ഡെഫ്ോഗ് എങ്ങനെ കാണപ്പെടണമെന്ന് തിരഞ്ഞെടുക്കുക"
+  },
+  "themeSystem": { "message": "സിസ്റ്റം" },
+  "themeLight": { "message": "ലൈറ്റ്" },
+  "themeDark": { "message": "ഡാർക്ക്" }
+}

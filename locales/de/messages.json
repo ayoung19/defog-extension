@@ -1,0 +1,33 @@
+{
+  "appName": { "message": "Entnebeln" },
+  "statusActiveOne": { "message": "1 Ersetzung aktiv" },
+  "statusActiveOther": { "message": "Ersetzungen aktiv" },
+  "statusPaused": { "message": "Angehalten" },
+  "addMapping": { "message": "Zuordnung hinzufügen" },
+  "patternPlaceholder": {
+    "message": "Zu übereinstimmendes Muster (z. B. eine UUID)"
+  },
+  "labelPlaceholder": { "message": "Lesbare Beschriftung (z.B. Andy)" },
+  "patternRequired": { "message": "Muster ist erforderlich" },
+  "labelRequired": { "message": "Etikett ist erforderlich" },
+  "patternExists": { "message": "Dieses Muster existiert bereits" },
+  "emptyStateTitle": { "message": "Noch keine Mappings" },
+  "emptyStateDescription": {
+    "message": "Fügen Sie ein Muster oben hinzu, um zu beginnen"
+  },
+  "editMapping": { "message": "Kartierung bearbeiten" },
+  "editPatternPlaceholder": { "message": "Zu übereinstimmendes Muster" },
+  "editLabelPlaceholder": { "message": "Lesbare Beschriftung" },
+  "save": { "message": "Speichern" },
+  "cancel": { "message": "Abbrechen" },
+  "close": { "message": "Schließen" },
+  "settings": { "message": "Einstellungen" },
+  "settingsSectionGeneral": { "message": "Allgemein" },
+  "settingsThemeLabel": { "message": "Thema" },
+  "settingsThemeDescription": {
+    "message": "Wählen Sie das Aussehen von Defog"
+  },
+  "themeSystem": { "message": "System" },
+  "themeLight": { "message": "Licht" },
+  "themeDark": { "message": "Dunkelheit" }
+}

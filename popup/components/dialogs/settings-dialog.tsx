@@ -43,10 +43,13 @@ export function SettingsDialog() {
     <div className="divide-border divide-y">
       <div className="pb-3">
         <h3 className="text-muted-foreground mb-3 text-[10px] font-medium tracking-wider uppercase">
-          General
+          {chrome.i18n.getMessage("settingsSectionGeneral")}
         </h3>
         <div className="space-y-3">
-          <SettingRow label="Theme" description="Choose how Defog looks">
+          <SettingRow
+            label={chrome.i18n.getMessage("settingsThemeLabel")}
+            description={chrome.i18n.getMessage("settingsThemeDescription")}
+          >
             <Select value={theme} onValueChange={(v) => setTheme(v as Theme)}>
               <SelectTrigger className="w-[130px]">
                 <SelectValue />
@@ -54,15 +57,15 @@ export function SettingsDialog() {
               <SelectContent position="popper" sideOffset={4}>
                 <SelectItem value="system">
                   <DesktopIcon className="size-3.5" />
-                  System
+                  {chrome.i18n.getMessage("themeSystem")}
                 </SelectItem>
                 <SelectItem value="light">
                   <SunIcon className="size-3.5" />
-                  Light
+                  {chrome.i18n.getMessage("themeLight")}
                 </SelectItem>
                 <SelectItem value="dark">
                   <MoonIcon className="size-3.5" />
-                  Dark
+                  {chrome.i18n.getMessage("themeDark")}
                 </SelectItem>
               </SelectContent>
             </Select>

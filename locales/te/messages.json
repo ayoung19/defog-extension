@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "మంచును తొలగించు" },
+  "statusActiveOne": { "message": "1 మార్పిడి చురుకుగా ఉంది" },
+  "statusActiveOther": { "message": "ప్రాతినిధ్యాలు చురుకుగా ఉన్నాయి" },
+  "statusPaused": { "message": "విరమించబడింది" },
+  "addMapping": { "message": "మ్యాపింగ్‌ను జోడించండి" },
+  "patternPlaceholder": { "message": "సరిపోల్చవలసిన నమూనా (ఉదా. ఒక UUID)" },
+  "labelPlaceholder": { "message": "చదవగలిగే లేబుల్ (ఉదా. ఆండీ)" },
+  "patternRequired": { "message": "ప్యాటర్న్ తప్పనిసరి" },
+  "labelRequired": { "message": "లేబుల్ తప్పనిసరి" },
+  "patternExists": { "message": "ఈ నమూనా ఇప్పటికే ఉంది" },
+  "emptyStateTitle": { "message": "ఇంకా మ్యాపింగ్‌లు లేవు" },
+  "emptyStateDescription": {
+    "message": "ప్రారంభించడానికి పైన ఒక నమూనాను జోడించండి"
+  },
+  "editMapping": { "message": "మ్యాపింగ్‌ను సవరించండి" },
+  "editPatternPlaceholder": { "message": "సరిపోల్చవలసిన నమూనా" },
+  "editLabelPlaceholder": { "message": "చదవగలిగే లేబుల్" },
+  "save": { "message": "సేవ్" },
+  "cancel": { "message": "రద్దు" },
+  "close": { "message": "మూసివేయండి" },
+  "settings": { "message": "సెట్టింగ్‌లు" },
+  "settingsSectionGeneral": { "message": "సాధారణం" },
+  "settingsThemeLabel": { "message": "థీమ్" },
+  "settingsThemeDescription": {
+    "message": "డిఫాగ్ ఎలా కనిపిస్తుందో ఎంచుకోండి"
+  },
+  "themeSystem": { "message": "సిస్టమ్" },
+  "themeLight": { "message": "తెలుపు" },
+  "themeDark": { "message": "డార్క్" }
+}

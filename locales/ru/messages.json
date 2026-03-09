@@ -1,0 +1,33 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 замена активна" },
+  "statusActiveOther": { "message": "замены активны" },
+  "statusPaused": { "message": "Приостановлено" },
+  "addMapping": { "message": "Добавить отображение" },
+  "patternPlaceholder": {
+    "message": "Шаблон для сопоставления (например, UUID)"
+  },
+  "labelPlaceholder": { "message": "Читаемый ярлык (например, Andy)" },
+  "patternRequired": { "message": "Шаблон обязателен" },
+  "labelRequired": { "message": "Ярлык обязателен" },
+  "patternExists": { "message": "Эта деталь уже существует" },
+  "emptyStateTitle": { "message": "Пока нет отображений" },
+  "emptyStateDescription": {
+    "message": "Добавьте шаблон выше, чтобы начать работу"
+  },
+  "editMapping": { "message": "Редактировать отображение" },
+  "editPatternPlaceholder": { "message": "Шаблон для сопоставления" },
+  "editLabelPlaceholder": { "message": "Читаемая метка" },
+  "save": { "message": "Сохранить" },
+  "cancel": { "message": "Отмена" },
+  "close": { "message": "Закрыть" },
+  "settings": { "message": "Настройки" },
+  "settingsSectionGeneral": { "message": "Общие" },
+  "settingsThemeLabel": { "message": "Тема" },
+  "settingsThemeDescription": {
+    "message": "Выберите, как будет выглядеть Defog"
+  },
+  "themeSystem": { "message": "Система" },
+  "themeLight": { "message": "Свет" },
+  "themeDark": { "message": "Темный" }
+}

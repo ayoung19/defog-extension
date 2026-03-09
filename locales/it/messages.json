@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 sostituzione attiva" },
+  "statusActiveOther": { "message": "sostituzioni attive" },
+  "statusPaused": { "message": "In pausa" },
+  "addMapping": { "message": "Aggiungi mappatura" },
+  "patternPlaceholder": {
+    "message": "Schema da confrontare (ad esempio, un UUID)"
+  },
+  "labelPlaceholder": { "message": "Etichetta leggibile (ad esempio, Andy)" },
+  "patternRequired": { "message": "Il modello è obbligatorio" },
+  "labelRequired": { "message": "L'etichetta è obbligatoria" },
+  "patternExists": { "message": "Questo modello esiste già" },
+  "emptyStateTitle": { "message": "Non ci sono ancora mappature" },
+  "emptyStateDescription": {
+    "message": "Aggiungete un modello qui sopra per iniziare"
+  },
+  "editMapping": { "message": "Modifica mappatura" },
+  "editPatternPlaceholder": { "message": "Schema da abbinare" },
+  "editLabelPlaceholder": { "message": "Etichetta leggibile" },
+  "save": { "message": "Salva" },
+  "cancel": { "message": "Annulla" },
+  "close": { "message": "Chiudere" },
+  "settings": { "message": "Impostazioni" },
+  "settingsSectionGeneral": { "message": "Generale" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": { "message": "Scegliere l'aspetto di Defog" },
+  "themeSystem": { "message": "Sistema" },
+  "themeLight": { "message": "Luce" },
+  "themeDark": { "message": "Scura" }
+}

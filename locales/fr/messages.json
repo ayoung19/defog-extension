@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 remplacement actif" },
+  "statusActiveOther": { "message": "remplacements actifs" },
+  "statusPaused": { "message": "En pause" },
+  "addMapping": { "message": "Ajouter une correspondance" },
+  "patternPlaceholder": {
+    "message": "Motif à faire correspondre (par exemple, un UUID)"
+  },
+  "labelPlaceholder": { "message": "Étiquette lisible (par exemple Andy)" },
+  "patternRequired": { "message": "Le motif est obligatoire" },
+  "labelRequired": { "message": "L'étiquette est obligatoire" },
+  "patternExists": { "message": "Ce motif existe déjà" },
+  "emptyStateTitle": { "message": "Aucun mappage pour l'instant" },
+  "emptyStateDescription": {
+    "message": "Ajoutez un modèle ci-dessus pour commencer"
+  },
+  "editMapping": { "message": "Modifier la cartographie" },
+  "editPatternPlaceholder": { "message": "Motif à faire correspondre" },
+  "editLabelPlaceholder": { "message": "Étiquette lisible" },
+  "save": { "message": "Enregistrer" },
+  "cancel": { "message": "Annuler" },
+  "close": { "message": "Fermer" },
+  "settings": { "message": "Paramètres" },
+  "settingsSectionGeneral": { "message": "Généralités" },
+  "settingsThemeLabel": { "message": "Thème" },
+  "settingsThemeDescription": { "message": "Choisissez l'apparence de Defog" },
+  "themeSystem": { "message": "Système" },
+  "themeLight": { "message": "Lumière" },
+  "themeDark": { "message": "Sombre" }
+}

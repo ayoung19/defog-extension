@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 заміна активна" },
+  "statusActiveOther": { "message": "заміни активні" },
+  "statusPaused": { "message": "Призупинено" },
+  "addMapping": { "message": "Додати зіставлення" },
+  "patternPlaceholder": {
+    "message": "Шаблон для зіставлення (наприклад, UUID)"
+  },
+  "labelPlaceholder": { "message": "Читабельна мітка (наприклад, Енді)" },
+  "patternRequired": { "message": "Потрібен візерунок" },
+  "labelRequired": { "message": "Етикетка обов'язкова" },
+  "patternExists": { "message": "Цей шаблон вже існує" },
+  "emptyStateTitle": { "message": "Ще немає зіставлень" },
+  "emptyStateDescription": { "message": "Додайте шаблон вище, щоб почати" },
+  "editMapping": { "message": "Редагувати картографування" },
+  "editPatternPlaceholder": { "message": "Візерунок на відповідність" },
+  "editLabelPlaceholder": { "message": "Читабельна мітка" },
+  "save": { "message": "Зберегти" },
+  "cancel": { "message": "Скасувати" },
+  "close": { "message": "Закрити" },
+  "settings": { "message": "Налаштування" },
+  "settingsSectionGeneral": { "message": "Загальні" },
+  "settingsThemeLabel": { "message": "Тема" },
+  "settingsThemeDescription": { "message": "Виберіть, як виглядатиме Defog" },
+  "themeSystem": { "message": "Система" },
+  "themeLight": { "message": "Світло" },
+  "themeDark": { "message": "Темний" }
+}

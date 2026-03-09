@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 asendamine aktiivne" },
+  "statusActiveOther": { "message": "asendused aktiivsed" },
+  "statusPaused": { "message": "Pausitud" },
+  "addMapping": { "message": "Lisa kaardistus" },
+  "patternPlaceholder": { "message": "Vastav muster (nt UUID)" },
+  "labelPlaceholder": { "message": "Loetav silt (nt Andy)" },
+  "patternRequired": { "message": "Muster on nõutav" },
+  "labelRequired": { "message": "Silt on nõutav" },
+  "patternExists": { "message": "See muster on juba olemas" },
+  "emptyStateTitle": { "message": "Ei ole veel kaardistusi" },
+  "emptyStateDescription": {
+    "message": "Lisage ülaltoodud muster, et alustada"
+  },
+  "editMapping": { "message": "Kaardistuse muutmine" },
+  "editPatternPlaceholder": { "message": "Vastav muster" },
+  "editLabelPlaceholder": { "message": "Loetav silt" },
+  "save": { "message": "Salvesta" },
+  "cancel": { "message": "Tühista" },
+  "close": { "message": "Sulge" },
+  "settings": { "message": "Seaded" },
+  "settingsSectionGeneral": { "message": "Üldine" },
+  "settingsThemeLabel": { "message": "Teema" },
+  "settingsThemeDescription": { "message": "Valige, kuidas Defog välja näeb" },
+  "themeSystem": { "message": "Süsteem" },
+  "themeLight": { "message": "Valgus" },
+  "themeDark": { "message": "Tume" }
+}

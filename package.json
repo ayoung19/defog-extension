@@ -12,7 +12,8 @@
     "package:firefox": "plasmo package --target=firefox-mv2",
     "format": "prettier --write .",
     "lint": "eslint . --fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "generate:translations": "DOTENV_CONFIG_PATH=.env.local ts-node -r dotenv/config scripts/generate-translations.ts"
   },
   "dependencies": {
     "@fontsource/jetbrains-mono": "^5.2.8",
@@ -34,12 +35,15 @@
     "@eslint/compat": "^2.0.3",
     "@eslint/js": "^10.0.1",
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
+    "@ricokahler/pool": "^1.2.0",
     "@tailwindcss/cli": "^4.2.1",
     "@types/chrome": "0.0.258",
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "concurrently": "^9.2.1",
+    "deepl-node": "^1.24.0",
+    "dotenv": "^17.3.1",
     "eslint": "^10.0.3",
     "globals": "^17.4.0",
     "husky": "^9.1.7",
@@ -47,6 +51,7 @@
     "prettier": "3.2.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "shadcn": "^4.0.0",
+    "ts-node": "^10.9.2",
     "typescript": "5.3.3",
     "typescript-eslint": "^8.56.1"
   },
@@ -55,6 +60,7 @@
     "*": "prettier --write --ignore-unknown"
   },
   "manifest": {
+    "default_locale": "en",
     "permissions": [
       "storage"
     ]

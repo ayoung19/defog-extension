@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Tanggalin ang hamog" },
+  "statusActiveOne": { "message": "1 pagpapalit ang aktibo" },
+  "statusActiveOther": { "message": "aktibo ang mga pagpapalit" },
+  "statusPaused": { "message": "Pinaus" },
+  "addMapping": { "message": "Magdagdag ng Mapa" },
+  "patternPlaceholder": { "message": "Patern na itutugma (hal. UUID)" },
+  "labelPlaceholder": { "message": "Mababasang label (hal. Andy)" },
+  "patternRequired": { "message": "Kinakailangan ang pattern" },
+  "labelRequired": { "message": "Kinakailangan ang label" },
+  "patternExists": { "message": "Umiral na ang pattern na ito" },
+  "emptyStateTitle": { "message": "Walang mga pagmamapa pa" },
+  "emptyStateDescription": {
+    "message": "Magdagdag ng pattern sa itaas para makapagsimula"
+  },
+  "editMapping": { "message": "I-edit ang pagmamapa" },
+  "editPatternPlaceholder": { "message": "Patern na itutugma" },
+  "editLabelPlaceholder": { "message": "Mababasang etiketa" },
+  "save": { "message": "I-save" },
+  "cancel": { "message": "I-cancel" },
+  "close": { "message": "Isara" },
+  "settings": { "message": "Mga Setting" },
+  "settingsSectionGeneral": { "message": "Pangkalahatan" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": {
+    "message": "Piliin kung paano magmukha ang Defog"
+  },
+  "themeSystem": { "message": "Sistema" },
+  "themeLight": { "message": "Magaan" },
+  "themeDark": { "message": "Madilim" }
+}

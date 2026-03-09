@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Уклони магла" },
+  "statusActiveOne": { "message": "1 замена активна" },
+  "statusActiveOther": { "message": "замене активне" },
+  "statusPaused": { "message": "Паузирано" },
+  "addMapping": { "message": "Додај мапирање" },
+  "patternPlaceholder": { "message": "Шаблон за подударност (нпр. UUID)" },
+  "labelPlaceholder": { "message": "Чивљив назив (нпр. Енди)" },
+  "patternRequired": { "message": "Шаблон је обавезан" },
+  "labelRequired": { "message": "Ознака је обавезна" },
+  "patternExists": { "message": "Овај образац већ постоји" },
+  "emptyStateTitle": { "message": "Још нема мапа" },
+  "emptyStateDescription": {
+    "message": "Додајте образац изнад да бисте започели"
+  },
+  "editMapping": { "message": "Уреди мапирање" },
+  "editPatternPlaceholder": { "message": "Шаблон за подударност" },
+  "editLabelPlaceholder": { "message": "Чивљив назив" },
+  "save": { "message": "Сачувај" },
+  "cancel": { "message": "Откажи" },
+  "close": { "message": "Затвори" },
+  "settings": { "message": "Подешавања" },
+  "settingsSectionGeneral": { "message": "Опште" },
+  "settingsThemeLabel": { "message": "Тема" },
+  "settingsThemeDescription": { "message": "Изаберите како Defog изгледа" },
+  "themeSystem": { "message": "Систем" },
+  "themeLight": { "message": "Светло" },
+  "themeDark": { "message": "Тамно" }
+}

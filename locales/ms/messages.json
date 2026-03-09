@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 penggantian aktif" },
+  "statusActiveOther": { "message": "penggantian aktif" },
+  "statusPaused": { "message": "Tertangguh" },
+  "addMapping": { "message": "Tambah Pemetaan" },
+  "patternPlaceholder": {
+    "message": "Corak untuk dipadankan (contohnya UUID)"
+  },
+  "labelPlaceholder": { "message": "Label yang boleh dibaca (contohnya Andy)" },
+  "patternRequired": { "message": "Corak diperlukan" },
+  "labelRequired": { "message": "Label diperlukan" },
+  "patternExists": { "message": "Corak ini sudah wujud" },
+  "emptyStateTitle": { "message": "Tiada pemetaan lagi" },
+  "emptyStateDescription": {
+    "message": "Tambah corak di atas untuk memulakan"
+  },
+  "editMapping": { "message": "Sunting pemetaan" },
+  "editPatternPlaceholder": { "message": "Corak untuk dipadankan" },
+  "editLabelPlaceholder": { "message": "Label yang boleh dibaca" },
+  "save": { "message": "Simpan" },
+  "cancel": { "message": "Batal" },
+  "close": { "message": "Tutup" },
+  "settings": { "message": " Tetapan" },
+  "settingsSectionGeneral": { "message": "Am" },
+  "settingsThemeLabel": { "message": "Tema" },
+  "settingsThemeDescription": { "message": "Pilih rupa Defog" },
+  "themeSystem": { "message": "Sistem" },
+  "themeLight": { "message": "Cerah" },
+  "themeDark": { "message": "Gelap" }
+}

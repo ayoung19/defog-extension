@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "1 korvaus aktiivinen" },
+  "statusActiveOther": { "message": "korvaukset aktiivisia" },
+  "statusPaused": { "message": "Paused" },
+  "addMapping": { "message": "Lisää kartoitus" },
+  "patternPlaceholder": { "message": "Täsmäävä kuvio (esim. UUID)" },
+  "labelPlaceholder": { "message": "Luettava merkintä (esim. Andy)" },
+  "patternRequired": { "message": "Kuvio on pakollinen" },
+  "labelRequired": { "message": "Tarra on pakollinen" },
+  "patternExists": { "message": "Tämä kuvio on jo olemassa" },
+  "emptyStateTitle": { "message": "Ei vielä kartoituksia" },
+  "emptyStateDescription": {
+    "message": "Lisää kuvio yläpuolella päästäksesi alkuun"
+  },
+  "editMapping": { "message": "Muokkaa kartoitusta" },
+  "editPatternPlaceholder": { "message": "Vastaava kuvio" },
+  "editLabelPlaceholder": { "message": "Luettava etiketti" },
+  "save": { "message": "Tallenna" },
+  "cancel": { "message": "Cancel" },
+  "close": { "message": "Sulje" },
+  "settings": { "message": "Asetukset" },
+  "settingsSectionGeneral": { "message": "Yleistä" },
+  "settingsThemeLabel": { "message": "Teema" },
+  "settingsThemeDescription": { "message": "Valitse, miltä Defog näyttää" },
+  "themeSystem": { "message": "Järjestelmä" },
+  "themeLight": { "message": "Valo" },
+  "themeDark": { "message": "Tumma" }
+}

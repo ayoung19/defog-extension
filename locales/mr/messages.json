@@ -1,0 +1,29 @@
+{
+  "appName": { "message": "धुके दूर करणे" },
+  "statusActiveOne": { "message": "1 प्रतिस्थापन सक्रिय" },
+  "statusActiveOther": { "message": "बदली सक्रिय" },
+  "statusPaused": { "message": "थंबवले" },
+  "addMapping": { "message": "मॅपिंग जोडा" },
+  "patternPlaceholder": { "message": "जुळवण्यासाठीचे नमुना (उदा. UUID)" },
+  "labelPlaceholder": { "message": "वाचनीय लेबल (उदा. अँडी)" },
+  "patternRequired": { "message": "पॅटर्न आवश्यक आहे" },
+  "labelRequired": { "message": "लेबल आवश्यक आहे" },
+  "patternExists": { "message": "हा नमुना आधीच अस्तित्वात आहे" },
+  "emptyStateTitle": { "message": "अद्याप कोणतीही नकाशांकन नाहीत" },
+  "emptyStateDescription": {
+    "message": "सुरुवात करण्यासाठी वर एक पॅटर्न जोडा"
+  },
+  "editMapping": { "message": "नकाशा संपादित करा" },
+  "editPatternPlaceholder": { "message": "जुळवण्यासाठी नमुना" },
+  "editLabelPlaceholder": { "message": "वाचनीय लेबल" },
+  "save": { "message": "सांभाळा" },
+  "cancel": { "message": "रद्द करा" },
+  "close": { "message": "बंद करा" },
+  "settings": { "message": "सेटिंग्ज" },
+  "settingsSectionGeneral": { "message": "सामान्य" },
+  "settingsThemeLabel": { "message": "थीम" },
+  "settingsThemeDescription": { "message": "Defog कसे दिसेल ते निवडा" },
+  "themeSystem": { "message": "सिस्टम" },
+  "themeLight": { "message": "हलका" },
+  "themeDark": { "message": "गडद" }
+}

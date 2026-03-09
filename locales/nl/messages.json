@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Ontwasemen" },
+  "statusActiveOne": { "message": "1 vervanging actief" },
+  "statusActiveOther": { "message": "vervangingen actief" },
+  "statusPaused": { "message": "Gepauzeerd" },
+  "addMapping": { "message": "Afbeelding toevoegen" },
+  "patternPlaceholder": {
+    "message": "Patroon om mee overeen te komen (bijv. een UUID)"
+  },
+  "labelPlaceholder": { "message": "Leesbaar label (bijv. Andy)" },
+  "patternRequired": { "message": "Patroon is vereist" },
+  "labelRequired": { "message": "Label is vereist" },
+  "patternExists": { "message": "Dit patroon bestaat al" },
+  "emptyStateTitle": { "message": "Nog geen mappings" },
+  "emptyStateDescription": {
+    "message": "Voeg hierboven een patroon toe om aan de slag te gaan"
+  },
+  "editMapping": { "message": "Map bewerken" },
+  "editPatternPlaceholder": { "message": "Patroon om mee overeen te komen" },
+  "editLabelPlaceholder": { "message": "Leesbaar label" },
+  "save": { "message": "Opslaan" },
+  "cancel": { "message": "Annuleren" },
+  "close": { "message": "Sluiten" },
+  "settings": { "message": "Instellingen" },
+  "settingsSectionGeneral": { "message": "Algemeen" },
+  "settingsThemeLabel": { "message": "Thema" },
+  "settingsThemeDescription": { "message": "Kies hoe Defog eruit ziet" },
+  "themeSystem": { "message": "Systeem" },
+  "themeLight": { "message": "Licht" },
+  "themeDark": { "message": "Donker" }
+}

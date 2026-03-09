@@ -1,0 +1,31 @@
+{
+  "appName": { "message": "Defog" },
+  "statusActiveOne": { "message": "Активно е 1 заместване" },
+  "statusActiveOther": { "message": "замествания активни" },
+  "statusPaused": { "message": "Пауза" },
+  "addMapping": { "message": "Добавяне на картографиране" },
+  "patternPlaceholder": {
+    "message": "Образец за съответствие (например UUID)"
+  },
+  "labelPlaceholder": { "message": "Четим етикет (напр. Andy)" },
+  "patternRequired": { "message": "Шаблонът е задължителен" },
+  "labelRequired": { "message": "Етикетът е задължителен" },
+  "patternExists": { "message": "Този модел вече съществува" },
+  "emptyStateTitle": { "message": "Все още няма съпоставки" },
+  "emptyStateDescription": {
+    "message": "Добавете модел по-горе, за да започнете"
+  },
+  "editMapping": { "message": "Редактиране на картографиране" },
+  "editPatternPlaceholder": { "message": "Модел за съответствие" },
+  "editLabelPlaceholder": { "message": "Четим етикет" },
+  "save": { "message": "Записване" },
+  "cancel": { "message": "Отказ" },
+  "close": { "message": "Затваряне" },
+  "settings": { "message": "Настройки" },
+  "settingsSectionGeneral": { "message": "Общи" },
+  "settingsThemeLabel": { "message": "Тема" },
+  "settingsThemeDescription": { "message": "Изберете как да изглежда Defog" },
+  "themeSystem": { "message": "Система" },
+  "themeLight": { "message": "Светлина" },
+  "themeDark": { "message": "Тъмно" }
+}
