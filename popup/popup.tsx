@@ -5,6 +5,7 @@ import {
 } from "@phosphor-icons/react";
 import { useEffect } from "react";
 
+import { setActionIcon } from "@/background/utils";
 import { CreateMappingForm } from "@/popup/components/create-mapping-form";
 import { SettingsDialog } from "@/popup/components/dialogs/settings-dialog";
 import { UpdateMappingForm } from "@/popup/components/dialogs/update-mapping-form";
@@ -89,7 +90,11 @@ export function Popup() {
           <Button
             variant="ghost"
             size="icon-sm"
-            onClick={() => setEnabled(!enabled)}
+            onClick={() => {
+              const next = !enabled;
+              setEnabled(next);
+              setActionIcon(next);
+            }}
           >
             {enabled ? (
               <LightningIcon className="text-primary size-4" weight="fill" />
